@@ -24,12 +24,19 @@ if (!isset($_SESSION['login']) && $_SESSION['login'] != true) {
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <meta name="description" content="" />
-    <meta name="author" content="" />
+    <meta name="description" content="Frostcarusa" />
+    <meta name="keywords" content="Frostcar" />
+    <meta name="author" content="Frostcar" />
     <title>Frost Car Usa</title>
     <link href="https://cdn.jsdelivr.net/npm/simple-datatables@7.1.2/dist/style.min.css" rel="stylesheet" />
     <link href="css/styles.css" rel="stylesheet" />
     <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+
+    <!--::::: Favicon :::::::-->
+    <link href="assets/img/cropped-frostcarPNG-180x180.png" rel="shortcut icon" type="image/x-icon">
+    <link href="assets/img/cropped-frostcarPNG-180x180.png" rel="apple-touch-icon">
+
+
     <!-- CSS -->
     <link rel="stylesheet" href="css/alertify.css" />
     <!-- Bootstrap theme -->
@@ -38,7 +45,9 @@ if (!isset($_SESSION['login']) && $_SESSION['login'] != true) {
     <!-- --------------google font----------- -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
-    <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
+        rel="stylesheet">
 
     <link rel="stylesheet" href="css/main.css">
 </head>
@@ -51,5 +60,6 @@ if (!isset($_SESSION['login']) && $_SESSION['login'] != true) {
         <a class="navbar-brand ps-3" href="index.php"><img width="200px" src="assets/img/forscar_logo.png" alt=""></a>
 
         <!-- Sidebar Toggle-->
-        <button class="btn text-black btn-link btn-sm order-1 order-lg-0 me-4 me-lg-0" id="sidebarToggle" href="#!"><i class="text-dark fas fa-bars"></i></button>
+        <button class="btn text-black btn-link btn-sm order-1 order-lg-0 me-4 me-lg-0" id="sidebarToggle" href="#!"><i
+                class="text-dark fas fa-bars"></i></button>
         <!-- Navbar Search-->
