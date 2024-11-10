@@ -1,15 +1,15 @@
 <?php
-// $server = "localhost";
-// $username = "root";
-// $password = "";
-// $database = "forstcarusa";
+$server = "localhost";
+$username = "root";
+$password = "";
+$database = "forstcarusa";
 
 
 // live server
-$server = "localhost";
-$username = "u223750196_forstcarusa";
-$password = "b?!ROnV[D/s0";
-$database = "u223750196_forstcarusa_DB";
+// $server = "localhost";
+// $username = "u223750196_forstcarusa";
+// $password = "b?!ROnV[D/s0";
+// $database = "u223750196_forstcarusa_DB";
 
 $conn = mysqli_connect($server , $username, $password ,$database);
 if (!$conn){
