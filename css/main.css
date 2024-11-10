@@ -1,0 +1,285 @@
+.hover:hover {
+    background-color: #E1251B;
+    color: white !important;
+}
+
+.hover {
+    text-decoration: none;
+    list-style: none;
+    color: black;
+}
+
+.active {
+    background-color: #E1251B;
+    color: white !important;
+}
+
+.bg-color {
+    background-color: #0055B8;
+}
+
+/* ==============company page================== */
+
+.input {
+    background-color: #ECECEC;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    padding-left: 10px;
+
+
+}
+
+
+.font {
+    font-weight: bold;
+    color: black;
+
+}
+
+.stu {
+    margin-right: 40px;
+}
+
+.mein-card {
+    height: 100%;
+    border-radius: 20px;
+
+}
+
+.save {
+    color: white;
+    background-color: #0055B8;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    width: 28%;
+    border: none;
+    height: 43px;
+    line-height: 13px;
+    border-radius: 8px;
+    margin-top: 30px;
+    margin-left: 60%;
+}
+
+.save:hover {
+    color: white;
+    background-color: #024795;
+
+}
+
+.font-inter {
+    color: black;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 24px;
+    padding-top: 40px;
+}
+
+.export {
+    margin-right: 20px;
+}
+
+.export-btn {
+    background: #41946D;
+    border: 1px solid #D0D5DD;
+    border-radius: 8px;
+    padding: 10px;
+    color: white;
+
+}
+
+.edit {
+    padding: 8px;
+    background-color: #0055B8;
+    color: white;
+
+}
+
+
+.btn-edit-delete {
+    margin-left: 25%;
+
+}
+
+.delete {
+    padding: 10px;
+    background-color: #E1251B;
+    color: white;
+
+}
+
+.btn-edit-delete a {
+    text-decoration: none;
+    color: black;
+
+}
+
+
+table th {
+    position: sticky;
+    top: 0px;
+    /* padding-left: 40px; */
+    background: #FCFCFD;
+    border-bottom: 1px solid #EAECF0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 12px;
+    padding-left: 24px;
+}
+
+
+
+.text-input {
+    height: 20px;
+    width: 20px;
+}
+
+
+table td {
+    padding-right: 40px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 24px;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+table tr:hover {
+    background-color: #ececec;
+}
+
+table tr {
+    border-bottom: 1px solid #EAECF0;
+
+}
+
+.fa-plus {
+    padding: 2px 4px 2px 4px;
+    border: 2px solid #0070FF;
+    border-radius: 6px;
+    font-size: 16px;
+    color: #0055B8;
+}
+
+.table-wrapper {
+    max-height: 88vh;
+    overflow-y: auto scroll;
+    max-width: 100%;
+    overflow-x: scroll;
+    text-align: start;
+    padding-right: 24px;
+
+}
+
+table {
+    min-width: max-content;
+}
+
+
+/* Set the width and height of the scrollbar */
+.table-wrapper::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+}
+
+/* Track */
+.table-wrapper::-webkit-scrollbar-track {
+    background-color: transparent;
+
+}
+
+/* Handle */
+.table-wrapper::-webkit-scrollbar-thumb {
+    background-color: #E1251B;
+    border-radius: 20px;
+}
+
+/* Handle on hover */
+.table-wrapper::-webkit-scrollbar-thumb:hover {
+    background-color: #ff7c7c;
+}
+
+/* ===============body scroll bar style============ */
+
+/* Set the width and height of the scrollbar */
+body::-webkit-scrollbar {
+    width: 7px;
+    /* height: 2px; */
+}
+
+/* Track */
+body::-webkit-scrollbar-track {
+    background-color: transparent;
+
+}
+
+/* Handle */
+body::-webkit-scrollbar-thumb {
+    background-color: #5d93ff;
+    border-radius: 20px;
+}
+
+/* Handle on hover */
+body::-webkit-scrollbar-thumb:hover {
+    background-color: #2747ff;
+}
+
+/* =====================mobile reponsive============== */
+@media only screen and (min-width: 0px) and (max-width: 375px) {
+
+    /* =================edit. export. delet. btn step============== */
+    .delete {
+        margin-left: auto;
+    }
+
+    .export {
+        margin-right: 10px;
+    }
+
+    .course-card {
+        margin-bottom: 30px;
+    }
+
+}
+
+.bg-nav {
+    background-color: white;
+}
+
+.bg-side-foter {
+    background-color: #0055B8;
+}
+
+.msg {
+    height: 50px;
+    border-radius: 10px;
+    justify-content: center;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.inputDesign {
+    padding: 5px;
+    border: 2px solid #ccc;
+    border-radius: 7px;
+    font-size: 16px;
+    outline: none;
+}
+
+.inputDesign:focus {
+    border-color: #0055b8;
+    animation: inputFocusAnimation 0.3s;
+}
+
+@keyframes inputFocusAnimation {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.05);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
